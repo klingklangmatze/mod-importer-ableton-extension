@@ -6,8 +6,7 @@ MOD Importer is an Ableton Live Extension for importing classic 4-channel ProTra
 
 Download the latest packaged Ableton Live Extension here:
 
-[Download MOD Importer (.ablx)](https://github.com/klingklangmatze/mod-importer-ableton-extension/blob/main/MOD-Importer-1.0.0.ablx)
-
+[Download MOD Importer (.ablx)](https://github.com/klingklangmatze/mod-importer-ableton-extension/raw/main/MOD-Importer-1.0.0.ablx)
 
 ## Features
 
