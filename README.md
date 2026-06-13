@@ -2,6 +2,13 @@
 
 MOD Importer is an Ableton Live Extension for importing classic 4-channel ProTracker `.mod` files as editable MIDI/Simpler tracks.
 
+## Download
+
+Download the latest packaged Ableton Live Extension here:
+
+[Download MOD Importer (.ablx)](https://github.com/klingklangmatze/mod-importer-ableton-extension/blob/main/MOD-Importer-1.0.0.ablx)
+
+
 ## Features
 
 - Local `.mod` import from Ableton's extension data folder or a user-provided folder path.
