@@ -1,0 +1,23 @@
+{
+  "name": "tracker-importer",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/extension.js",
+  "scripts": {
+    "ensure-deps": "node scripts/ensure-deps.cjs",
+    "build": "npm run ensure-deps && tsx build.ts",
+    "start": "npm run ensure-deps && tsx build.ts && extensions-cli run",
+    "typecheck": "npm run ensure-deps && tsc --noEmit",
+    "package": "npm run ensure-deps && tsc --noEmit && tsx build.ts --production && extensions-cli package"
+  },
+  "dependencies": {
+    "@ableton-extensions/sdk": "file:vendor/ableton-extensions-sdk-1.0.0-beta.0.tgz"
+  },
+  "devDependencies": {
+    "@ableton-extensions/cli": "file:vendor/ableton-extensions-cli-1.0.0-beta.0.tgz",
+    "@types/node": "^22.0.0",
+    "esbuild": "0.28.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.9.3"
+  }
+}
